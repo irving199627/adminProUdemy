@@ -7,12 +7,14 @@ import { HeaderComponent } from './header/header.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { BreadcrumbsComponent } from './breadcrumbs/breadcrumbs.component';
 import { ServiceModule } from '../services/service.module';
+import { PipesModule } from '../pipes/pipes.module';
 
 @NgModule({
     imports: [
         RouterModule,
         CommonModule,
-        ServiceModule
+        ServiceModule,
+        PipesModule
     ],
     declarations: [
         NopagefoundComponent,
