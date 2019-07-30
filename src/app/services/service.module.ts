@@ -6,7 +6,7 @@ import { SettingsService,
          SidebarService,
          MedicoService,
          SharedService, UsuarioService, LoginGuardGuard, SubirArchivoService, HospitalService,
-         AdminGuard } from './service.index';
+         AdminGuard, VerificaTokenGuard } from './service.index';
 import { ModalUploadService } from '../components/modal-upload/modal-upload.service';
 
 @NgModule({
@@ -25,7 +25,8 @@ import { ModalUploadService } from '../components/modal-upload/modal-upload.serv
     ModalUploadService,
     HospitalService,
     MedicoService,
-    AdminGuard
+    AdminGuard,
+    VerificaTokenGuard
   ],
   declarations: []
 })
